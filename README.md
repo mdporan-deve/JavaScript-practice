@@ -1,5 +1,2 @@
-# JavaScript-practice
-This is my first Git repository.
-<br>
-Author Name: Poran.
-<p>Hello World!</p>
+This is my first repository.
+
