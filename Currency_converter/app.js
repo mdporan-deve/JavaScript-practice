@@ -58,10 +58,3 @@ msg.innerText=`${amount.value} ${fromCurr.value} = ${fainalVal} ${toCurr.value}`
 
 
 
-
-// fetch("https://open.er-api.com/v6/latest/USD")
-//   .then(response => response.json())
-//   .then(data => {
-//     let bdtRate = data.rates.BDT; 
-//     console.log("USD to BDT Rate:", bdtRate);
-//   });
