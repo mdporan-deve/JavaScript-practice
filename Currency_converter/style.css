@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: antiquewhite;
+    height: 100vh ;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    background-color: whitesmoke;
+    height: 52vmin;
+    width: 50vmin;
+    padding: 5vmin;
+    border-radius: .5rem;
+}
+
+
+h3{
+    text-align: center;
+    font-size: 4vmin;
+}
+.inputAm{
+    padding: 1.5vmin 0 1vmin 0;
+}
+#inamount{
+    width: 40vmin;
+    height:6vmin;
+    border-radius: 5px;
+    border: .5px solid black;
+}
+
+
+.dropdown{
+    display: flex;
+    padding: 1vmin 0 1vmin 0;
+    justify-content: space-between;
+    width: 100%;
+}
+.dropdown i{
+    padding-top: 5.1vmin;
+    font-size: 2.5vmin;
+    /* width: 20%; */
+}
+
+.from-container{
+    display: flex;
+    border: .1px solid black;
+    height: 6vmin;
+    width: 100%;
+    border-radius: 5px;
+}
+.to-container{
+    display: flex;
+    border: .1px solid black;
+    height: 6vmin;
+    width: 100%;
+    border-radius: 5px;
+}
+
+select{
+    outline: none;
+    border: none;
+    font-size: .75rem; 
+    font-weight: 550;
+    width: 60%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.msg{
+    padding: 1vmin 0 1vmin 0;
+    font-size: 2.5vmin;
+    font-weight: 400;
+}
+
+.exchangerate{
+    padding: 1vmin 0 1vmin 0;
+    
+}
+
+#exbtn{
+    color: white;
+    font-weight: 600;
+    font-size: 2.5vmin;
+    height: 6vmin;
+    width: 40vmin;
+    border-radius: 5px;
+    border: .5px solid black;
+    background-color: rgb(134, 32, 154);
+    cursor: pointer;
+}
